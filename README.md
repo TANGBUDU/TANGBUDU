@@ -21,7 +21,7 @@ Six contributions merged or landed upstream as of September 29, 2026.
 
 #### Achievements
 
-- **Kaggle Silver Medal** — AI Agent Security: Multi-Step Tool Attacks — **90 / 4,251**
+- **Kaggle Silver Medal** — AI Agent Security: Multi-Step Tool Attacks — **88 / 4,186 teams (top 2.1%)**, final private leaderboard — [official result](https://www.kaggle.com/tangbudu19sd195/competitions)
 
 #### Featured project
 
