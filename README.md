@@ -2,16 +2,18 @@
 
 I contribute to ML infrastructure, with a focus on compiler correctness, GPU kernels, and quantized inference.
 
-- **Open source:** contributions landed in PyTorch, Triton, and ONNX Runtime.
+- **Open source:** contributions landed in PyTorch, Triton, ONNX Runtime, and ONNX Script.
 - **Research:** pixel-based thermal facial image analysis for emotion sensing.
 - **Building:** personal AI agent systems and automation tools.
 
 #### Selected upstream contributions
 
-Six contributions merged or landed upstream as of September 29, 2026.
+Eight contributions merged or landed upstream as of October 9, 2026.
 
 | Project | Contribution |
 | --- | --- |
+| ONNX Script | Support ONNX export of offset-based `grouped_mm` layouts with dynamic offsets and input lengths; add regression tests. [PR #3017](https://github.com/microsoft/onnxscript/pull/3017) |
+| ONNX Runtime | Support independent FP32/FP16 scale and output types in CPU `DequantizeLinear` across per-tensor, per-axis, and blocked quantization. [PR #32728](https://github.com/microsoft/onnxruntime/pull/32728) |
 | PyTorch / TorchInductor | Prevent unsafe in-place `index_put` rewrites when indices or values share input storage; add graph-level and end-to-end regressions. [PR #198637](https://github.com/pytorch/pytorch/pull/198637) |
 | PyTorch / TorchInductor | Correct select–cat rewrite matching, layout checks, and output aliasing semantics. [PR #198638](https://github.com/pytorch/pytorch/pull/198638) |
 | Triton | Prevent loop pipelining from moving dependent loads ahead of in-loop grid dependency waits; add MLIR scheduling regressions. [PR #11906](https://github.com/triton-lang/triton/pull/11906) |
